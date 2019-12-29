@@ -1,4 +1,4 @@
 # MaterialPhoneBook
 MATERIAL DESIGN ON CALLING APP
 Screenshots:<br>
-![Screenshot](sc1.png)
+<img src="sc1.png" width="300px" height="700px">
