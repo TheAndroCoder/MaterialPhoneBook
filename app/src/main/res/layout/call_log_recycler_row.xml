@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="10dp"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_call_missed_black_24dp"
+        android:id="@+id/direction"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sachin Rana"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/direction"
+        android:id="@+id/name"
+        android:lines="1"
+        android:maxWidth="400px"
+        android:ellipsize="end"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(SIM 1)"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/direction"
+        android:layout_below="@+id/name"
+        android:id="@+id/simNumber"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:text="8981895883"
+        android:textColor="#000"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/simNumber"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="10:53 AM"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
